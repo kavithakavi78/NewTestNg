@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64927" started-at="2020-11-23T09:00:58Z" finished-at="2020-11-23T09:02:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="64927" started-at="2020-11-23T09:00:58Z" finished-at="2020-11-23T09:02:02Z">
+      <class name="org.executable.Facebook">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.executable.Facebook@4dfa3a9d]" name="launch" is-config="true" duration-ms="55765" started-at="2020-11-23T09:00:58Z" finished-at="2020-11-23T09:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:org.executable.Facebook@4dfa3a9d]" name="startTime" is-config="true" duration-ms="39" started-at="2020-11-23T09:01:54Z" finished-at="2020-11-23T09:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="faceBook(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.executable.Facebook@4dfa3a9d]" name="faceBook" duration-ms="6202" started-at="2020-11-23T09:01:54Z" finished-at="2020-11-23T09:02:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Angel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cristy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[angel.cristy87@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[angel.cristy87@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Cristy67]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- faceBook -->
+        <test-method status="PASS" signature="EndTime()[pri:0, instance:org.executable.Facebook@4dfa3a9d]" name="EndTime" is-config="true" duration-ms="1" started-at="2020-11-23T09:02:00Z" finished-at="2020-11-23T09:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTime -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.executable.Facebook@4dfa3a9d]" name="closeBrowser" is-config="true" duration-ms="2679" started-at="2020-11-23T09:02:00Z" finished-at="2020-11-23T09:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.executable.Facebook -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

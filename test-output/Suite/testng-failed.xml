@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="firstName" value="Vinoth"/>
+    <parameter name="lastName" value="Vinothkumar"/>
+    <parameter name="password" value="kavivino"/>
+    <parameter name="email" value="kumar.vinoth78@gmail.com"/>
+    <classes>
+      <class name="org.executable.Facebook">
+        <methods>
+          <include name="faceBook" invocation-numbers="0"/>
+          <include name="startTime"/>
+          <include name="EndTime"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- org.executable.Facebook -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
